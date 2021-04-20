@@ -1,0 +1,49 @@
+
+[
+            {
+                "name": "fields-1",
+                "type": "text",
+                "required": true,
+                "placeholder": "fields-1",
+                "access": {
+                    "manager": "read"
+                },
+                "fields": [
+                    {
+                        "name": "fields-sub-1",
+                        "type": "text",
+                        "required": true,
+                        "placeholder": "fields-sub-1",
+                        "access": {
+                            "manager": "change"
+                        }
+                    },
+                    {
+                        "name": "fields-sub-2",
+                        "type": "number",
+                        "required": true,
+                        "placeholder": "fields-sub-2",
+                        "access": {
+                            "manager": "change"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "fields-2",
+                "type": "text",
+                "required": true,
+                "placeholder": "fields-2",
+                "access": {
+                }
+            },
+            {
+                "name": "fields-3",
+                "type": "text",
+                "required": true,
+                "placeholder": "fields-3",
+                "access": {
+                    "manager": "change"
+                }
+            }
+        ]
